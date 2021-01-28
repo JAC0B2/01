@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<!--Button Demo-->
+<html>
+  <body>
+    <h2>What can JavaScript do?</h2>
+    <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Large</button>
+    <button type="button" onclick="document.getElementById('demo').style.fontSize='15px'">Small</button>
+    <button id="disappear" type="button" onclick="document.getElementById('demo').style.display='none';document.getElementById('reappear').style.display='block'; document.getElementById('disappear').style.display='none';">Disappear</button>
+    <button id="reappear" type="button" style="display:none" onclick="document.getElementById('demo').style.display='block'; document.getElementById('reappear').style.display='none'; document.getElementById('disappear').style.display='block';">Reappear</button>
+	<p id="demo">JavaScript can change the style of a HTML element.</p>
+    
